@@ -377,7 +377,7 @@ main { overflow: clip; }
     linear-gradient(145deg, #17111e, #241825 52%, #140f19);
 }
 #dedicatoria:before, #dedicatoria:after { position: absolute; z-index: -1; color: rgba(255, 157, 179, .12); pointer-events: none; }
-#dedicatoria:before { content: '✧'; top: 9%; left: 5%; font-size: 58px; }
+#dedicatoria:before { content: '✧︎'; top: 9%; left: 5%; font-size: 58px; }
 #dedicatoria:after { content: '♡'; right: 7%; bottom: 8%; font-size: 88px; }
 .dedication-wrap { display: grid; width: min(100%, 1100px); grid-template-columns: minmax(0, 1.1fr) minmax(290px, .78fr); align-items: center; gap: clamp(42px, 8vw, 112px); margin: 0 auto; }
 .dedication-copy { position: relative; z-index: 1; }
@@ -426,7 +426,7 @@ main { overflow: clip; }
     radial-gradient(ellipse at 84% 18%, rgba(121, 95, 151, .17), transparent 36%),
     linear-gradient(145deg, #17111d, #221725 52%, #15101a);
 }
-#encontro:before, #encontro:after { content: '✧'; position: absolute; z-index: -1; color: rgba(239, 190, 157, .2); pointer-events: none; }
+#encontro:before, #encontro:after { content: '✧︎'; position: absolute; z-index: -1; color: rgba(239, 190, 157, .2); pointer-events: none; }
 #encontro:before { top: 10%; left: 8%; font-size: 40px; }
 #encontro:after { right: 8%; bottom: 12%; font-size: 58px; }
 .date-wheel-wrap { width: min(100%, 1160px); margin: 0 auto; }
@@ -535,7 +535,7 @@ main { overflow: clip; }
   background: radial-gradient(ellipse at 8% 14%, rgba(115, 75, 125, .2), transparent 38%), radial-gradient(ellipse at 91% 86%, rgba(190, 75, 108, .15), transparent 37%), linear-gradient(145deg, #191321, #241824 54%, #15101a);
 }
 #brincadeiras:before, #brincadeiras:after { position: absolute; z-index: -1; color: rgba(255, 179, 198, .12); pointer-events: none; }
-#brincadeiras:before { content: '✧'; top: 9%; left: 6%; font-size: 52px; }
+#brincadeiras:before { content: '✧︎'; top: 9%; left: 6%; font-size: 52px; }
 #brincadeiras:after { content: '♡'; right: 6%; bottom: 7%; font-size: 82px; }
 .playroom-wrap { width: min(100%, 1180px); margin: 0 auto; }
 .playroom-heading { max-width: 730px; margin: 0 auto 42px; text-align: center; }
@@ -589,7 +589,7 @@ main { overflow: clip; }
 .scratch-ticket:before { content: ''; position: absolute; inset: 9px; z-index: 1; border: 1px dashed rgba(255,225,233,.25); border-radius: 5px 16px 5px 5px; pointer-events: none; }
 .scratch-reveal { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; padding: 28px; text-align: center; }
 .scratch-reveal>span { display: inline-flex; align-items: center; gap: 8px; color: #f0bd9e; font-size: 8px; font-weight: 700; letter-spacing: .16em; }
-.scratch-reveal>span:before, .scratch-reveal>span:after { content: '✦'; color: #ff9caf; font-size: 10px; }
+.scratch-reveal>span:before, .scratch-reveal>span:after { content: '✦︎'; color: #ff9caf; font-size: 10px; }
 .scratch-reveal p { max-width: 390px; margin: 0; color: #fff0f2; font: 500 clamp(17px, 2vw, 22px)/1.5 'Playfair Display', Georgia, serif; }
 .scratch-reveal>b { color: #d9adbc; font: italic 13px 'Playfair Display', Georgia, serif; }
 .scratch-reveal>b i { color: #ff9caf; font-style: normal; }
